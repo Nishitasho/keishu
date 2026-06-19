@@ -33,6 +33,9 @@
 .menu-preview {
   padding: clamp(56px,8vw,110px) clamp(20px,6vw,92px);
 }
+.menu-preview .cards {
+  margin-top: 24px;
+}
 .menu-more {
   display: flex;
   justify-content: center;
