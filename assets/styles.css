@@ -30,32 +30,34 @@
   .mobile-cta a:last-child { top: 56px; }
   .site-footer { padding-bottom: 150px; }
 }
-.footer-links .survey-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 42px;
-  padding: .62rem 1rem;
-  background: linear-gradient(135deg, #8f211d, #5f1715);
-  border: 1px solid var(--bronze);
-  color: #fff8eb;
-  font-weight: 700;
-  text-decoration: none;
-  box-shadow: 0 10px 24px rgba(0,0,0,.22);
-}
-.footer-links .survey-link::before {
-  content: "特典";
-  margin-right: .55rem;
-  padding: .1rem .38rem;
-  background: var(--bronze);
-  color: var(--ink);
-  font-size: .72rem;
-  line-height: 1.4;
+.menu-preview .section-title h2 {
+  font-size: clamp(1.45rem, 2.1vw, 2rem);
 }
 .menu-more {
   display: flex;
   justify-content: center;
   margin-top: 28px;
+}
+.news-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem;
+  margin-top: 1.5rem;
+}
+.survey-button {
+  background: #fff8eb;
+  border-color: var(--bronze);
+  color: var(--ink);
+  font-weight: 700;
+}
+.survey-button::before {
+  content: "特典";
+  margin-right: .55rem;
+  padding: .08rem .38rem;
+  background: var(--bronze);
+  color: var(--ink);
+  font-size: .72rem;
+  line-height: 1.4;
 }
 .news-strip .button.ghost,
 .reservation-band .button.ghost {
@@ -67,4 +69,12 @@
 .reservation-band .button.ghost:hover {
   background: #fff8eb;
   color: var(--ink);
+}
+@media(max-width:620px){
+  .menu-preview .section-title h2 {
+    font-size: 1.35rem;
+  }
+  .news-actions .button {
+    width: 100%;
+  }
 }
