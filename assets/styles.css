@@ -30,8 +30,8 @@
   .mobile-cta a:last-child { top: 56px; }
   .site-footer { padding-bottom: 150px; }
 }
-.menu-preview .section-title h2 {
-  font-size: clamp(1.45rem, 2.1vw, 2rem);
+.menu-preview {
+  padding: clamp(56px,8vw,110px) clamp(20px,6vw,92px);
 }
 .menu-more {
   display: flex;
@@ -71,8 +71,8 @@
   color: var(--ink);
 }
 @media(max-width:620px){
-  .menu-preview .section-title h2 {
-    font-size: 1.35rem;
+  .menu-preview {
+    padding: 42px 16px;
   }
   .news-actions .button {
     width: 100%;
