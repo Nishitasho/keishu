@@ -10,7 +10,7 @@ python3 -m http.server 4173 -d outputs/keishu-brand-site
 
 ## Cloudflare Pages
 
-ビルドコマンドなし、出力ディレクトリは `outputs/keishu-brand-site` を指定します。独自ドメイン公開時は `sitemap.xml` と canonical の `https://example.com` を本番URLへ変更してください。
+ビルドコマンドなし、出力ディレクトリは `outputs/keishu-brand-site` を指定します。GitHub Pages では `https://nishitasho.github.io/keishu/` 配下で表示できます。独自ドメイン公開時は `sitemap.xml` と canonical を本番URLへ変更してください。
 
 ## 更新方法
 
