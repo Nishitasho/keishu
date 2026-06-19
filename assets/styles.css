@@ -30,3 +30,41 @@
   .mobile-cta a:last-child { top: 56px; }
   .site-footer { padding-bottom: 150px; }
 }
+.footer-links .survey-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: .62rem 1rem;
+  background: linear-gradient(135deg, #8f211d, #5f1715);
+  border: 1px solid var(--bronze);
+  color: #fff8eb;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 10px 24px rgba(0,0,0,.22);
+}
+.footer-links .survey-link::before {
+  content: "特典";
+  margin-right: .55rem;
+  padding: .1rem .38rem;
+  background: var(--bronze);
+  color: var(--ink);
+  font-size: .72rem;
+  line-height: 1.4;
+}
+.menu-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+.news-strip .button.ghost,
+.reservation-band .button.ghost {
+  color: #fff8eb;
+  border-color: var(--bronze);
+  background: rgba(255,248,235,.08);
+}
+.news-strip .button.ghost:hover,
+.reservation-band .button.ghost:hover {
+  background: #fff8eb;
+  color: var(--ink);
+}
