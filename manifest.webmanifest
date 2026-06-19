@@ -1,0 +1,15 @@
+{
+  "name": "焼肉慶州",
+  "short_name": "焼肉慶州",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#17110f",
+  "theme_color": "#6f1d1b",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
